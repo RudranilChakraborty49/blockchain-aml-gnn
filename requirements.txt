@@ -1,0 +1,16 @@
+torch
+torch-geometric
+numpy
+pandas
+scipy
+scikit-learn
+networkx
+gradio
+torch-geometric
+numpy
+pandas
+scipy
+scikit-learn
+networkx
+gradio
+pyvis
