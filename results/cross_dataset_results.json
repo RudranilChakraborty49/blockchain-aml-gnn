@@ -1,0 +1,11 @@
+{
+  "elliptic_to_elliptic": {"P": 0.270, "R": 0.830, "F1": 0.408, "PR_AUC": 0.501, "ROC": 0.876},
+  "amlw_to_amlw":         {"P": 0.067, "R": 0.827, "F1": 0.124, "PR_AUC": 0.170, "ROC": 0.843},
+  "elliptic_to_amlw":     {"P": 0.006, "R": 0.095, "F1": 0.012, "PR_AUC": 0.016, "ROC": 0.305},
+  "amlw_to_elliptic":     {"P": 0.072, "R": 0.126, "F1": 0.092, "PR_AUC": 0.100, "ROC": 0.553},
+  "setup": {
+    "elliptic_nodes": 203769, "elliptic_edges": 234355, "elliptic_illicit_pct": 2.2,
+    "amlw_nodes": 205177, "amlw_edges": 388539, "amlw_illicit_pct": 2.5,
+    "feature_dim": 11, "model": "GraphSAGE (2-layer, hidden=64)"
+  }
+}
